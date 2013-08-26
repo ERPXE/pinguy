@@ -1,0 +1,14 @@
+MENU BEGIN PINGUY
+MENU LABEL ^Pinguy 12.04
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/pinguy/pinguy.png
+
+MENU INCLUDE er/plugins/Pinguy/i386/pinguymain.menu
+MENU INCLUDE er/plugins/Pinguy/x86_64/pinguymain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

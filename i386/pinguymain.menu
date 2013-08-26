@@ -1,0 +1,8 @@
+LABEL PINGUY86
+MENU LABEL ^Pinguy Live - i386
+KERNEL er/plugins/pinguy/i386/vmlinuz
+INITRD er/plugins/pinguy/i386/initrd.gz
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/pinguy/i386 ramdisk_size=200000 nolock vga=791 aufs
+TEXT HELP
+                 Pinguy Linux x86.
+ENDTEXT

@@ -1,0 +1,8 @@
+LABEL PINGUY64
+MENU LABEL ^Pinguy Live - x64
+KERNEL er/plugins/pinguy/x86_64/vmlinuz
+INITRD er/plugins/pinguy/x86_64/initrd.gz
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/pinguy/x86_64 ramdisk_size=200000 nolock vga=791 aufs
+TEXT HELP
+                 Pinguy Linux x64.
+ENDTEXT
