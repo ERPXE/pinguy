@@ -2,9 +2,9 @@
 backtrack.menu
 backtrack.png
 filelist.txt
-i386
+x86_64
 
-./i386:
+./x86_64:
 backtrackmain.menu
 initrd.gz
 vmlinuz
